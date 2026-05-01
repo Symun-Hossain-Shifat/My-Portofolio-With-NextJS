@@ -70,11 +70,14 @@ export default function Navbarpage  () {
 
         {/* Right Image Section */}
         <div className="relative">
-          <div className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-primary/10 absolute -z-10 blur-2xl"></div>
+          <div className=" rounded-full bg-primary/10 absolute -z-10 blur-2xl"></div>
 
          
         </div>
       </div>
+
+
+
     </section>
     </>
     

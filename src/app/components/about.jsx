@@ -20,7 +20,7 @@ export default function Aboutpage() {
             <Image
   src={image}
   alt="Profile"
-  className="w-72 md:w-150 mb-10 rounded-2xl object-cover"
+  className="w-full md:w-150 mb-10 rounded-2xl object-cover"
 />
           </div>
         </div>

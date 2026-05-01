@@ -1,5 +1,7 @@
 import React from 'react'
-import { IoMailUnreadOutline } from 'react-icons/io5'
+import { FaArrowRight } from 'react-icons/fa'
+import { GoArrowUpRight } from 'react-icons/go'
+
 
 function Heropage () {
   return (
@@ -34,11 +36,7 @@ function Heropage () {
     </ul>
   </div>
   <div className="navbar-end">
-    <div className='flex items-center gap-3 mx-5'>
-        <span className='text-blue-600'><IoMailUnreadOutline size={20} />
-</span>
-        <p>saymonshifat569625@gmail.com</p>
-    </div>
+    <button className='btn btn-neutral items-center'>Hire Me <span><GoArrowUpRight size={15} /></span></button>
   </div>
 </div>  
         

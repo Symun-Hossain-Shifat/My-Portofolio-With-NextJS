@@ -46,19 +46,19 @@ export default function ContactComponent() {
             <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-6 rounded-2xl hover:border-violet-500 transition">
               <FaEnvelope className="text-violet-400 text-2xl mb-3" />
               <h3 className="text-xl font-semibold">Email</h3>
-              <p className="text-gray-400">yourmail@gmail.com</p>
+              <p className="text-gray-400">saymonshifat569625@gmail.com</p>
             </div>
 
             <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-6 rounded-2xl hover:border-violet-500 transition">
               <FaPhoneAlt className="text-violet-400 text-2xl mb-3" />
               <h3 className="text-xl font-semibold">Phone</h3>
-              <p className="text-gray-400">+880 1XXXXXXXXX</p>
+              <p className="text-gray-400">+880 1619050716</p>
             </div>
 
             <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-6 rounded-2xl hover:border-violet-500 transition">
               <FaMapMarkerAlt className="text-violet-400 text-2xl mb-3" />
               <h3 className="text-xl font-semibold">Location</h3>
-              <p className="text-gray-400">Feni, Chattogram, Bangladesh</p>
+              <p className="text-gray-400">Rampura , Dhaka , Bangladesh</p>
             </div>
 
           </motion.div>
