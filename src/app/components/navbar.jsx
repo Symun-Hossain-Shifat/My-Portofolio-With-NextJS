@@ -51,16 +51,20 @@ export default function Navbarpage  () {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Link target="blank" href={'https://www.linkedin.com/in/symun-hossain-shifat-35612338b/'}>
-             <button className="btn btn-primary">
+             <button className="btn w-4/12 md:w-full mx-auto btn-primary">
              Contact Me
             </button>
             </Link>
            
 
-            <button className="btn btn-outline btn-primary flex items-center gap-2">
+            
+             <Link target="blank" href={'file:///C:/Users/Computer%20Gallery/Downloads/Shifat%20CV.pdf'}>
+           <button className="btn mx-auto  w-4/12 md:w-full btn-outline btn-primary flex items-center gap-2">
               <FaDownload />
               Download CV
             </button>
+            </Link>
+
           </div>
         </div>
 

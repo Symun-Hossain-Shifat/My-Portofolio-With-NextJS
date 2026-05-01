@@ -29,7 +29,7 @@ export default function Aboutpage() {
         {/* Right Content */}
         <div className="flex-1 space-y-5">
 
-          <p className="text-primary font-semibold">ABOUT ME</p>
+          <p className="text-primary text-3xl font-semibold">ABOUT ME</p>
 
           <h2 className="text-3xl md:text-4xl font-bold leading-snug">
             More Than <span className="text-primary">1+ Years</span> Programming Experience
@@ -50,9 +50,13 @@ export default function Aboutpage() {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pt-3">
 
+           
+
+            <Link target="blank" href={'file:///C:/Users/Computer%20Gallery/Downloads/Shifat%20CV.pdf'}>
             <button className="btn btn-primary">
               Download CV
             </button>
+            </Link>
 
             {/* Social Icons */}
             <div className="flex gap-4 text-xl text-base-content/70">
