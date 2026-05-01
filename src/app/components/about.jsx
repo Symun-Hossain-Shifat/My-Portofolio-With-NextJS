@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
-import image from '@/asset/shifat2.png'
+import image from '@/asset/saymon.png'
 import Link from "next/link";
 
 
@@ -18,11 +18,10 @@ export default function Aboutpage() {
             <div className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-primary/10 blur-2xl absolute -z-10"></div>
 
             <Image
-              src={image}
-              
-              alt="Profile"
-              className="w-72 md:w-96 bg-none rounded-2xl shadow-xl object-cover"
-            />
+  src={image}
+  alt="Profile"
+  className="w-72 md:w-150 mb-10 rounded-2xl object-cover"
+/>
           </div>
         </div>
 

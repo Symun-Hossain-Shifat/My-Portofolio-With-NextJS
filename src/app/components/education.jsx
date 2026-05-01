@@ -44,7 +44,7 @@ const EducationExperience = () => {
   ];
 
   return (
-    <section className="bg-white container mx-auto py-20 px-6">
+    <section className="bg-white container mx-auto py-10 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
         
         {/* Education Column */}

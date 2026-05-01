@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 import Heropage from "./hero";
 import { Typewriter } from "react-simple-typewriter";
 import Link from "next/link";
-import banner from '@/asset/banner2.png'
+import banner from '@/asset/banner.png'
 import manpic from '@/asset/shifat2.png'
 
 export default function Navbarpage  () {
@@ -72,11 +72,7 @@ export default function Navbarpage  () {
         <div className="relative">
           <div className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-primary/10 absolute -z-10 blur-2xl"></div>
 
-          <img
-            src={'manpic'}
-            alt="Profile"
-            className="w-72 md:w-96 object-cover rounded-2xl shadow-xl"
-          />
+         
         </div>
       </div>
     </section>

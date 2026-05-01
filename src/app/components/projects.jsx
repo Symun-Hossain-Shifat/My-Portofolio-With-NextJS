@@ -181,19 +181,18 @@ const ProjectsSection = () => {
 
 
 
-
-<div className='mx-auto '>
-
-        <Link target='blank' href={'https://github.com/Symun-Hossain-Shifat'} className='block mx-auto'>
-        <button className='btn btn-error mx-auto btn-outline  items-center'> <span>View All Project</span>  <span><LuArrowRight size={15} /></span> </button>
-              
-        
-        </Link>
-
-
+<div className="mx-auto text-center">
+  <Link
+    target="_blank"
+    href="https://github.com/Symun-Hossain-Shifat"
+    className="inline-block"
+  >
+    <button className="btn btn-error btn-outline flex items-center gap-2 mx-auto">
+      <span>View All Project</span>
+      <LuArrowRight size={15} />
+    </button>
+  </Link>
 </div>
-      
-
 
 
       </div>

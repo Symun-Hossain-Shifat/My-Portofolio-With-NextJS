@@ -3,8 +3,8 @@ import { IoMailUnreadOutline } from 'react-icons/io5'
 
 function Heropage () {
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm">
+    <div className='sticky top-0 z-50'>
+      <div className="navbar bg-base-100  shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,11 +13,11 @@ function Heropage () {
       <ul
         tabIndex="-1"
         className="menu  font-semibold menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
- <li><a>Home</a></li>
+ <li><a href='/'>Home</a></li>
       
       <li><a>About</a></li>
-      <li><a>Services</a></li>
-      <li><a>Blog</a></li>
+      <li><a>Skills</a></li>
+      <li><a>Education</a></li>
       <li><a>Projects</a></li>
       </ul>
     </div>
