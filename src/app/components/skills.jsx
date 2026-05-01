@@ -30,7 +30,7 @@ const Skillspage = () => {
   {skills.map((skill, index) => (
     <div
       key={index}
-      className="bg-[#2a1454] mx-4 transition-all duration-300 rounded-2xl p-6 flex flex-col items-center justify-center border border-transparent hover:border-[#8750f7] group"
+      className=" text-black  border-2 mx-4  duration-300 rounded-2xl p-6 flex flex-col items-center justify-center  group"
     >
       <div className="relative w-12 h-12 mb-4">
         <img
@@ -40,7 +40,7 @@ const Skillspage = () => {
         />
       </div>
 
-      <span className="text-gray-400 group-hover:text-white text-sm font-medium transition-colors">
+      <span className=" text-sm font-medium transition-colors">
         {skill.name}
       </span>
     </div>
