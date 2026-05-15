@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const ProjectsSection = () => {
   return (
-    <section className="bg-white py-16 md:py-24 px-6 md:px-12 lg:px-24">
+    <section id='projects' className="bg-white py-16 md:py-24 px-6 md:px-12 lg:px-24">
 
 <p className="text-primary text-center mb-10 text-3xl font-semibold">My Top Projects</p>
 

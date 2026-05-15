@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 import { GoArrowUpRight } from 'react-icons/go'
@@ -15,24 +16,22 @@ function Heropage () {
       <ul
         tabIndex="-1"
         className="menu  font-semibold menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
- <li><a href='/'>Home</a></li>
-      
-      <li><a>About</a></li>
-      <li><a>Skills</a></li>
-      <li><a>Education</a></li>
-      <li><a>Projects</a></li>
+    <li><Link href="#banner">Home</Link></li>
+  <li><Link href="#about">About</Link></li>
+  <li><Link href="#skills">Skills</Link></li>
+  <li><Link href="#education">Education</Link></li>
+  <li><Link href="#projects">Projects</Link></li>
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">SHIFAT</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-semibold">
-      <li><a>Home</a></li>
-      
-      <li><a>About</a></li>
-      <li><a>Services</a></li>
-      <li><a>Blog</a></li>
-      <li><a>Projects</a></li>
+       <li><Link href="#banner">Home</Link></li>
+  <li><Link href="#about">About</Link></li>
+  <li><Link href="#skills">Skills</Link></li>
+  <li><Link href="#education">Education</Link></li>
+  <li><Link href="#projects">Projects</Link></li>
     </ul>
   </div>
   <div className="navbar-end">

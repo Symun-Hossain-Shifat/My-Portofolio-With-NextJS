@@ -8,9 +8,11 @@ import {
   FaPaperPlane,
 } from "react-icons/fa";
 
+
+
 export default function ContactComponent() {
   return (
-    <section className="bg-[#0f0715] text-white py-10 mb-40  px-6 md:px-12">
+    <section id="contact" className="bg-[#0f0715] text-white py-10 mb-40  px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
 
         {/* Heading */}

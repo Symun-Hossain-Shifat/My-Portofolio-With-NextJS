@@ -13,7 +13,7 @@ export default function Navbarpage  () {
 <Heropage></Heropage>
 
 
-    <section className={`min-h-screen  bg-cover bg-center flex items-center bg-base-100 px-6 md:px-16 `}
+    <section id="banner" className={`min-h-screen  bg-cover bg-center flex items-center bg-base-100 px-6 md:px-16 `}
     
     style={{ backgroundImage: `url(${banner.src})` }} >
 
@@ -50,8 +50,8 @@ export default function Navbarpage  () {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <Link target="blank" href={'https://www.linkedin.com/in/symun-hossain-shifat-35612338b/'}>
-             <button className="btn w-4/12 md:w-full mx-auto btn-primary">
+            <Link  href='#contact'>
+             <button  className="btn w-4/12 md:w-full mx-auto btn-primary">
              Contact Me
             </button>
             </Link>

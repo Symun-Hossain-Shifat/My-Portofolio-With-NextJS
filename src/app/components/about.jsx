@@ -1,83 +1,168 @@
-
 "use client";
 
-import Image from "next/image";
-import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
-import image from '@/asset/saymon.png'
+import { motion } from "framer-motion";
 import Link from "next/link";
+import {
+  FaCode,
+  FaLaptopCode,
+  FaPaintBrush,
+  FaFootballBall,
+  FaHeart,
+  FaFacebook,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
-
-export default function Aboutpage() {
+export default function Aboutpage () {
   return (
-    <section className="min-h-screen flex items-center bg-base-100 px-6 md:px-16 py-16">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12">
-
-        {/* Left Image */}
-        <div className="flex-1 flex justify-center">
-          <div className="relative">
-            <div className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-primary/10 blur-2xl absolute -z-10"></div>
-
-            <Image
-  src={image}
-  alt="Profile"
-  className="w-full md:w-150 mb-10 rounded-2xl object-cover"
-/>
-          </div>
-        </div>
-
-        {/* Right Content */}
-        <div className="flex-1 space-y-5">
-
-          <p className="text-primary text-3xl font-semibold">ABOUT ME</p>
-
-          <h2 className="text-3xl md:text-4xl font-bold leading-snug">
-            More Than <span className="text-primary">1+ Years</span> Programming Experience
-          </h2>
-
-          <p className="font-semibold text-gray-700">
-            I am a passionate web developer currently studying in Honours 1st year. I enjoy building modern, responsive web applications and continuously improving my skills in frontend and backend development. My goal is to grow as a software engineer and work in a top tech company.
+    <section
+      id="about"
+      className="min-h-screen bg-white text-black px-6 md:px-16 py-20"
+    >
+      <p className="text-violet-600 font-bold text-2xl text-center mb-5 tracking-widest uppercase mb-3">
+            About Me
           </p>
 
-          {/* Info Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-            <p><span className="font-semibold">Name:</span> Symun Hossain Shifat</p>
-            <p><span className="font-semibold">Location:</span> Dhaka, Bangladesh</p>
-            <p><span className="font-semibold">Email:</span> saymonshifat569625@gmail.com</p>
-            <p><span className="font-semibold">Contact:</span> 01619050715 / 01756795022 </p>
-          </div>
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        
+        {/* LEFT SIDE */}
+        <motion.div
+          initial={{ opacity: 0, x: -80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          
+          <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+            Passionate Frontend Developer &
+            <span className="text-violet-400"> Creative Thinker</span>
+          </h2>
 
+          <p className="text-gray-700 text-lg leading-8 mb-6">
+            Hello! I'm <span className="text-black font-semibold">Shifat</span>,
+            a passionate programming learner and aspiring software developer
+            from Bangladesh. My journey into programming started with curiosity
+            about how websites and applications work behind the scenes.
+          </p>
+
+          <p className="text-gray-700 text-lg leading-8 mb-6">
+            I enjoy building modern, responsive, and interactive web
+            applications using technologies like React, Next.js, Tailwind CSS,
+            and MongoDB. I love turning ideas into real-world projects and
+            constantly improving my problem-solving skills.
+          </p>
+
+          <p className="text-gray-700 text-lg leading-8">
+            Outside of programming, I enjoy football, creative design, exploring
+            new technologies, and spending time learning about different
+            cultures and opportunities around the world. I believe consistency,
+            creativity, and hard work can turn dreams into reality.
+          </p>
+        </motion.div>
+
+        {/* RIGHT SIDE */}
+        <motion.div
+          initial={{ opacity: 0, x: 80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+        >
+          {/* CARD 1 */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-3xl shadow-2xl hover:text-violet-400 transition duration-300"
+          >
+            <FaCode className="text-4xl text-cyan-400 mb-4" />
+
+            <h3 className="text-2xl font-bold mb-3">
+              Programming Journey
+            </h3>
+
+            <p className="text-gray-700 leading-7">
+              Started learning programming with curiosity and gradually built
+              skills in frontend and backend development.
+            </p>
+          </motion.div>
+
+          {/* CARD 2 */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-3xl shadow-2xl hover:text-violet-400 transition duration-300"
+          >
+            <FaLaptopCode className="text-4xl text-violet-400 mb-4" />
+
+            <h3 className="text-2xl font-bold mb-3">
+              What I Enjoy
+            </h3>
+
+            <p className="text-gray-700 leading-7">
+              I enjoy creating beautiful user interfaces, solving coding
+              problems, and building full-stack projects.
+            </p>
+          </motion.div>
+
+          {/* CARD 3 */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-3xl shadow-2xl hover:text-violet-400 transition duration-300"
+          >
+            <FaFootballBall className="text-4xl text-cyan-400 mb-4" />
+
+            <h3 className="text-2xl font-bold mb-3">
+              Hobbies
+            </h3>
+
+            <p className="text-gray-700 leading-7">
+              I love football, exploring technology, traveling ideas, and
+              learning about opportunities around the world.
+            </p>
+          </motion.div>
+
+          {/* CARD 4 */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-3xl shadow-2xl hover:text-violet-400 transition duration-300"
+          >
+            <FaHeart className="text-4xl text-violet-400 mb-4" />
+
+            <h3 className="text-2xl font-bold mb-3">
+              Personality
+            </h3>
+
+            <p className="text-gray-700 leading-7">
+              I'm ambitious, creative, and always eager to learn new things and
+              challenge myself with exciting projects.
+            </p>
+          </motion.div>
+        </motion.div>
+      </div>
+      <div>
+        
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pt-3">
+          <div className="flex my-5 justify-center items-center gap-5">
 
            
 
-            <Link target="blank" href={'file:///C:/Users/Computer%20Gallery/Downloads/Shifat%20CV.pdf'}>
-            <button className="btn btn-primary">
-              Download CV
-            </button>
-            </Link>
-
             {/* Social Icons */}
-            <div className="flex gap-4 text-xl text-base-content/70">
+           
             <Link target="blank" href={'https://www.facebook.com/saymon.hossain.shifat'}>
-            <FaFacebook className="hover:text-primary cursor-pointer" />
+            <FaFacebook size={30} className="hover:text-primary cursor-pointer" />
             </Link>
               
             <Link target="blank" href={'https://github.com/Symun-Hossain-Shifat'}>
-              <FaGithub className="hover:text-primary cursor-pointer" />
+              <FaGithub size={30} className="hover:text-primary cursor-pointer" />
             </Link>
               
             <Link target="blank" href={'https://www.linkedin.com/in/symun-hossain-shifat-35612338b/'}>
-             <FaLinkedin className="hover:text-primary cursor-pointer" />
+             <FaLinkedin size={30} className="hover:text-primary cursor-pointer" />
             </Link>
               
             
              
              
-            </div>
+            
           </div>
-
-        </div>
       </div>
     </section>
   );
