@@ -86,83 +86,7 @@ export default function HeroSection() {
          
         </div>
       </div>
-            {/* Tech Stack */}
-            {/* <div className="mt-14">
-              <h3 className="text-2xl font-bold text-gray-800 mb-7">
-                Tech Stack
-              </h3>
-
-              <div className="flex flex-wrap justify-center lg:justify-start gap-5">
-                
-                {[
-                  {
-                    icon: (
-                      <FaHtml5 className="text-orange-500 text-4xl" />
-                    ),
-                    name: "HTML5",
-                  },
-                  {
-                    icon: (
-                      <FaCss3Alt className="text-blue-500 text-4xl" />
-                    ),
-                    name: "CSS3",
-                  },
-                  {
-                    icon: (
-                      <SiJavascript className="text-yellow-400 text-4xl" />
-                    ),
-                    name: "JavaScript",
-                  },
-                  {
-                    icon: (
-                      <FaReact className="text-cyan-400 text-4xl" />
-                    ),
-                    name: "React",
-                  },
-                  {
-                    icon: (
-                      <SiNextdotjs className="text-black text-4xl" />
-                    ),
-                    name: "Next.js",
-                  },
-                  {
-                    icon: (
-                      <SiTailwindcss className="text-sky-400 text-4xl" />
-                    ),
-                    name: "Tailwind",
-                  },
-                  {
-                    icon: (
-                      <FaNodeJs className="text-green-600 text-4xl" />
-                    ),
-                    name: "Node.js",
-                  },
-                  {
-                    icon: (
-                      <SiMongodb className="text-green-500 text-4xl" />
-                    ),
-                    name: "MongoDB",
-                  },
-                  {
-                    icon: (
-                      <FaGithub className="text-black text-4xl" />
-                    ),
-                    name: "GitHub",
-                  },
-                ].map((tech, index) => (
-                  <div
-                    key={index}
-                    className="bg-white border border-gray-200 shadow-lg rounded-2xl p-5 hover:-translate-y-2 hover:shadow-2xl duration-300 flex flex-col items-center w-[100px]"
-                  >
-                    {tech.icon}
-
-                    <p className="text-sm font-medium text-gray-700 mt-3">
-                      {tech.name}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div> */}
+            
           </motion.div>
 
           {/* Right Image */}
@@ -193,7 +117,7 @@ export default function HeroSection() {
               
               <div className="text-center">
                 <h2 className="text-3xl font-bold text-purple-600">
-                  2+
+                  1+
                 </h2>
                 <p className="text-gray-500 text-sm">
                   Experience
