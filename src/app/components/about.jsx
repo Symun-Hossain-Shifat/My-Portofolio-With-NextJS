@@ -34,7 +34,7 @@ export default function Aboutpage () {
         >
           
           <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-            Passionate Frontend Developer &
+            Passionate Full stack Developer &
             <span className="text-violet-400"> Creative Thinker</span>
           </h2>
 

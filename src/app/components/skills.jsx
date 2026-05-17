@@ -24,32 +24,32 @@ export default function Skillspage () {
     {
       name: "HTML5",
       icon: <FaHtml5 />,
-      level: "95%",
+      level: "99%",
     },
     {
       name: "CSS3",
       icon: <FaCss3Alt />,
-      level: "90%",
+      level: "99%",
     },
     {
       name: "JavaScript",
       icon: <SiJavascript />,
-      level: "85%",
+      level: "90%",
     },
     {
       name: "React",
       icon: <FaReact />,
-      level: "88%",
+      level: "90%",
     },
     {
       name: "Next.js",
       icon: <SiNextdotjs />,
-      level: "80%",
+      level: "95%",
     },
     {
       name: "Tailwind CSS",
       icon: <SiTailwindcss />,
-      level: "92%",
+      level: "98%",
     },
   ];
 
@@ -57,17 +57,17 @@ export default function Skillspage () {
     {
       name: "Node.js",
       icon: <FaNodeJs />,
-      level: "78%",
+      level: "85%",
     },
     {
       name: "Express.js",
       icon: <SiExpress />,
-      level: "75%",
+      level: "90%",
     },
     {
       name: "MongoDB",
       icon: <SiMongodb />,
-      level: "82%",
+      level: "92%",
     }
   ];
 
@@ -75,12 +75,12 @@ export default function Skillspage () {
     {
       name: "GitHub",
       icon: <FaGithub />,
-      level: "85%",
+      level: "93%",
     },
     {
       name: "Figma",
       icon: <FaFigma />,
-      level: "70%",
+      level: "99%",
     },
   ];
 

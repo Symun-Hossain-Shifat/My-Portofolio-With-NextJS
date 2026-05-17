@@ -1,26 +1,37 @@
 "use client";
 
-import { FaDownload } from "react-icons/fa";
-import Heropage from "./hero";
+import Image from "next/image";
+import saymon from '@/asset/saymon.png'
+import { motion } from "framer-motion";
+
 import { Typewriter } from "react-simple-typewriter";
 import Link from "next/link";
-import banner from '@/asset/banner.png'
-import manpic from '@/asset/shifat2.png'
+import { FaDownload } from "react-icons/fa";
 
-export default function Navbarpage  () {
+export default function HeroSection() {
   return (
-    <>
-<Heropage></Heropage>
+    <section className="min-h-screen bg-[#f6f6f6] overflow-hidden flex items-center relative">
+      
+      {/* Background Blur */}
+      <div className="absolute top-0 left-0 w-[300px] h-[300px] bg-purple-300 rounded-full blur-3xl opacity-20"></div>
 
+      <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-blue-300 rounded-full blur-3xl opacity-20"></div>
 
-    <section id="banner" className={`min-h-screen  bg-cover bg-center flex items-center bg-base-100 px-6 md:px-16 `}
-    
-    style={{ backgroundImage: `url(${banner.src})` }} >
+      <div className="max-w-7xl mx-auto px-6 lg:px-16 py-16 w-full">
+        
+        {/* Main Flex */}
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-20">
+          
+          {/* Left Content */}
+          <motion.div
+            initial={{ opacity: 0, x: -70 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            className="flex-1 text-center lg:text-left"
+          >
+           
 
-
-
-
-      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
+      <div className="container  mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
 
         {/* Left Content */}
         <div className="text-center lg:text-left max-w-xl">
@@ -75,11 +86,145 @@ export default function Navbarpage  () {
          
         </div>
       </div>
+            {/* Tech Stack */}
+            {/* <div className="mt-14">
+              <h3 className="text-2xl font-bold text-gray-800 mb-7">
+                Tech Stack
+              </h3>
 
+              <div className="flex flex-wrap justify-center lg:justify-start gap-5">
+                
+                {[
+                  {
+                    icon: (
+                      <FaHtml5 className="text-orange-500 text-4xl" />
+                    ),
+                    name: "HTML5",
+                  },
+                  {
+                    icon: (
+                      <FaCss3Alt className="text-blue-500 text-4xl" />
+                    ),
+                    name: "CSS3",
+                  },
+                  {
+                    icon: (
+                      <SiJavascript className="text-yellow-400 text-4xl" />
+                    ),
+                    name: "JavaScript",
+                  },
+                  {
+                    icon: (
+                      <FaReact className="text-cyan-400 text-4xl" />
+                    ),
+                    name: "React",
+                  },
+                  {
+                    icon: (
+                      <SiNextdotjs className="text-black text-4xl" />
+                    ),
+                    name: "Next.js",
+                  },
+                  {
+                    icon: (
+                      <SiTailwindcss className="text-sky-400 text-4xl" />
+                    ),
+                    name: "Tailwind",
+                  },
+                  {
+                    icon: (
+                      <FaNodeJs className="text-green-600 text-4xl" />
+                    ),
+                    name: "Node.js",
+                  },
+                  {
+                    icon: (
+                      <SiMongodb className="text-green-500 text-4xl" />
+                    ),
+                    name: "MongoDB",
+                  },
+                  {
+                    icon: (
+                      <FaGithub className="text-black text-4xl" />
+                    ),
+                    name: "GitHub",
+                  },
+                ].map((tech, index) => (
+                  <div
+                    key={index}
+                    className="bg-white border border-gray-200 shadow-lg rounded-2xl p-5 hover:-translate-y-2 hover:shadow-2xl duration-300 flex flex-col items-center w-[100px]"
+                  >
+                    {tech.icon}
 
+                    <p className="text-sm font-medium text-gray-700 mt-3">
+                      {tech.name}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div> */}
+          </motion.div>
 
+          {/* Right Image */}
+          <motion.div
+            initial={{ opacity: 0, x: 70 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            className="flex-1 flex justify-center relative"
+          >
+            
+            {/* Glow */}
+            <div className="absolute w-[350px] h-[350px] lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-r from-purple-400 to-blue-400 blur-3xl opacity-30"></div>
+
+            {/* Circle */}
+            <div className="relative w-[300px] h-[300px] sm:w-[380px] sm:h-[380px] lg:w-[500px] lg:h-[500px] rounded-full border-[12px] border-white shadow-2xl overflow-hidden bg-gradient-to-br from-purple-100 to-blue-100">
+              
+              <Image
+                src={saymon}
+                alt="profile"
+                fill
+                className="object-cover hover:scale-105 duration-500"
+                priority
+              />
+            </div>
+
+            {/* Floating Card */}
+            <div className="absolute bottom-0 lg:bottom-10 bg-white shadow-2xl border border-gray-200 rounded-3xl px-8 py-5 flex gap-10">
+              
+              <div className="text-center">
+                <h2 className="text-3xl font-bold text-purple-600">
+                  2+
+                </h2>
+                <p className="text-gray-500 text-sm">
+                  Experience
+                </p>
+              </div>
+
+              <div className="w-[1px] bg-gray-300"></div>
+
+              <div className="text-center">
+                <h2 className="text-3xl font-bold text-blue-600">
+                  15+
+                </h2>
+                <p className="text-gray-500 text-sm">
+                  Projects
+                </p>
+              </div>
+
+              <div className="w-[1px] bg-gray-300"></div>
+
+              <div className="text-center">
+                <h2 className="text-3xl font-bold text-pink-600">
+                  100%
+                </h2>
+                <p className="text-gray-500 text-sm">
+                  Success
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
     </section>
-    </>
-    
   );
 }
