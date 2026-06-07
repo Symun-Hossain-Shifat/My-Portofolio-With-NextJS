@@ -69,10 +69,10 @@ export default function HeroSection() {
            
 
             
-             <Link target="blank" href={'file:///C:/Users/Computer%20Gallery/Downloads/Shifat%20CV.pdf'}>
+             <Link target="blank" href={'https://drive.google.com/file/d/1-AAQx1PDCEftkRC-BAXtSO6vrFuva_3M/view'}>
            <button className="btn mx-auto  w-4/12 md:w-full btn-outline btn-primary flex items-center gap-2">
               <FaDownload />
-              Download CV
+              View Resume
             </button>
             </Link>
 
