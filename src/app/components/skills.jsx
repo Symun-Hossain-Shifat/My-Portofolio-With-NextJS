@@ -9,6 +9,7 @@ import {
   FaHtml5,
   FaCss3Alt,
 } from "react-icons/fa";
+import { RiVercelLine } from "react-icons/ri";
 
 import {
   SiNextdotjs,
@@ -82,6 +83,12 @@ export default function Skillspage () {
       icon: <FaFigma />,
       level: "99%",
     },
+    
+    {
+      name: "Vercel",
+      icon: <RiVercelLine />,
+      level: "98%",
+    }
   ];
 
   return (

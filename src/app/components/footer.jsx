@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
@@ -13,10 +14,13 @@ const Footerpage = () => {
             Every project starts with a chat. Joven leads our client conversations
             and will be happy to discuss your project. He will also pull in the right
             people from the team when needed.
-          </p>
-          <button className="bg-[#1db954] hover:bg-[#19a34a] text-white font-semibold py-3 px-8 rounded-md transition-colors duration-300">
+          </p> 
+          <Link href="mailto:yourname@gmail.com">
+<button className="bg-[#1db954] hover:bg-[#19a34a] text-white font-semibold py-3 px-8 rounded-md transition-colors duration-300">
             Tell us about your project
           </button>
+          </Link>
+          
         </div>
 
         {/* ডান দিকের সেকশন */}

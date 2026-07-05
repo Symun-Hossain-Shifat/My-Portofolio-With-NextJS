@@ -34,9 +34,17 @@ function Heropage () {
   <li><Link href="#projects">Projects</Link></li>
     </ul>
   </div>
-  <div className="navbar-end">
-    <button className='btn btn-neutral items-center'>Hire Me <span><GoArrowUpRight size={15} /></span></button>
-  </div>
+ <div className="navbar-end">
+  <a
+    href="mailto:yourname@gmail.com"
+    className="btn btn-neutral items-center"
+  >
+    Hire Me
+    <span>
+      <GoArrowUpRight size={15} />
+    </span>
+  </a>
+</div>
 </div>  
         
          </div>

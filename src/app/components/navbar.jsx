@@ -69,7 +69,7 @@ export default function HeroSection() {
            
 
             
-             <Link target="blank" href={'https://drive.google.com/file/d/1-AAQx1PDCEftkRC-BAXtSO6vrFuva_3M/view'}>
+             <Link target="blank" href={'https://drive.google.com/file/d/1603bEdK-O07fze9DwKamuj1GBqsL-tmj/view'}>
            <button className="btn mx-auto  w-4/12 md:w-full btn-outline btn-primary flex items-center gap-2">
               
               View Resume
