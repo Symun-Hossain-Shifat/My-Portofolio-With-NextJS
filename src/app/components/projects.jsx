@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import image1 from '@/asset/payoo.png'
+import image1 from '@/asset/Recipe.png'
 import { LuArrowRight } from 'react-icons/lu';
 import image3 from '@/asset/news.png'
 import image4 from '@/asset/travel.png'
@@ -32,21 +32,24 @@ const ProjectsSection = () => {
           {/* Text Side */}
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-[#111111] leading-tight">
-              Payoo Mobile App
+              Recipe Sharing Platform
             </h2>
             <div>
                <h4 className="text-lg font-semibold text-[#111111]"> Project Overview </h4>
-               <p className="text-[#545454] flex flex-col leading-relaxed">Payoo is a secure digital payment platform that enables users to perform Cash In, Cash Out, Bank Transfers, and Bill Payments with ease.
+               <p className="text-[#545454] flex flex-col leading-relaxed">Payoo is a secure digital RecipeHub is a modern full-stack recipe sharing platform where users can discover, create, manage, and share delicious recipes with people around the world. It provides a clean and responsive interface, secure authentication, recipe categorization, and an interactive user experience.
 
-The application features secure authentication, seamless transaction management, and a personalized dashboard for tracking financial activities and account history.</p>
+</p>
             </div>
             
             <div className="space-y-3">
               <h4 className="text-lg font-semibold text-[#111111]"> Project Featured </h4>
               <p className="text-[#545454] flex flex-col leading-relaxed">
-               <span>Users can perform secure financial transactions, including Cash In, Cash Out, Send Money, Bank Transfers, and Bill Payments through a single platform.</span>
-               <span>Users can register and log in securely to access their accounts, ensuring protected access to personal and financial information.</span>
-               <span>Users can manage their account activities, track transaction history, monitor balances, and view payment records from a personalized dashboard.</span>
+               User & Admin Dashboards: Developed separate dashboards for users and admins with recipe management, user
+management, payment tracking, and full system administration. <br />
+● Recipe Management & Search: Implemented full CRUD functionality, category-based filtering, server-side
+pagination, and dynamic recipe loading for a seamless browsing experience. <br />
+● Authentication & Premium Features: Integrated secure authentication (Email/Password & Google Sign-In),
+protected routes, persistent sessions, and a premium upgrade system with recipe posting limits.
               
               </p>
             </div>
