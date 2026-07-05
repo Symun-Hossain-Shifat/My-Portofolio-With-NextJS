@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import image1 from '@/asset/Recipe.png'
 import { LuArrowRight } from 'react-icons/lu';
-import image3 from '@/asset/news.png'
+import image3 from '@/asset/hireloop.png'
 import image4 from '@/asset/travel.png'
 import Link from 'next/link';
 
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
             <div className="space-y-3">
               <h4 className="text-lg font-semibold text-[#111111]"> Project Featured </h4>
               <p className="text-[#545454] flex flex-col leading-relaxed">
-               User & Admin Dashboards: Developed separate dashboards for users and admins with recipe management, user
+               ● User & Admin Dashboards: Developed separate dashboards for users and admins with recipe management, user
 management, payment tracking, and full system administration. <br />
 ● Recipe Management & Search: Implemented full CRUD functionality, category-based filtering, server-side
 pagination, and dynamic recipe loading for a seamless browsing experience. <br />
@@ -57,16 +57,17 @@ protected routes, persistent sessions, and a premium upgrade system with recipe 
             <div className="space-y-3 pt-2">
               <h4 className="text-lg font-semibold text-[#111111]">used Technology</h4>
               <div className='flex flex-wrap font-semibold gap-3'>
-                <button className='btn btn-outline btn-neutral'>HTML</button>
-                <button className='btn btn-outline btn-neutral'>TailwindCSS</button>
-                <button className='btn btn-outline btn-neutral'>javascript</button>
-                <button className='btn btn-outline btn-neutral'>CSS</button>
+                <button className='btn btn-outline btn-neutral'>Next Js</button>
+                <button className='btn btn-outline btn-neutral'>MongoDB</button>
+                <button className='btn btn-outline btn-neutral'>Express Js</button>
+                <button className='btn btn-outline btn-neutral'> JWT </button>
+                <button className='btn btn-outline btn-neutral'>Vercel</button>
               </div>
               <div className='flex gap-5'>
-              <Link href={'https://payoo-app-project.netlify.app'}>
+              <Link href={'https://recipehub-client-pi.vercel.app'}>
               <button className='btn btn-primary btn-outline items-center'> <span>View Project</span>  <span><LuArrowRight size={15} /></span> </button>
               </Link>
-              <Link href={'https://github.com/Symun-Hossain-Shifat/Mobile-Banking-App'}>
+              <Link href={'https://github.com/Symun-Hossain-Shifat/Recipe-Sharing-Platform-Client'}>
               <button className='btn btn-primary btn-outline items-center'> <span>View Code</span>  <span><LuArrowRight size={15} /></span> </button>
               </Link>
               </div>
@@ -89,22 +90,23 @@ protected routes, persistent sessions, and a premium upgrade system with recipe 
           {/* Text Side */}
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-[#111111] leading-tight">
-              Dragon News App
+              Job Application App
             </h2>
              <div>
                <h4 className="text-lg font-semibold text-[#111111]"> Project Overview </h4>
-               <p className="text-[#545454] flex flex-col leading-relaxed">A modern news portal application that allows users to browse the latest news, filter articles by category, and read detailed news content through a secure authentication system.
-
-Users can create accounts, log in securely, and manage their profiles while enjoying a personalized and seamless news-reading experience.</p>
+               <p className="text-[#545454] flex flex-col leading-relaxed">A modern news portal HireLoop is a job portal with separate dashboards for job seekers, recruiters, and admin. It allows job
+seekers to apply for jobs, recruiters to manage job listings, and admins to monitor and manage platform operations.</p>
             </div>
             
             <div className="space-y-3">
               <h4 className="text-lg font-semibold text-[#111111]"> Project Featured </h4>
               <p className="text-[#545454] flex flex-col leading-relaxed">
-               <span>Users can explore all available news articles and quickly find relevant content by filtering news based on categories such as Technology, Sports, Business, Entertainment, and more.</span>
-               <span>Authenticated users can access detailed news articles, including full content, publication information, and related news, ensuring a personalized reading experience.</span>
-               <span>Registered users can manage and update their profile information, allowing them to keep their account details accurate and personalized.</span>
-               
+              ● User, Recruiter & Admin Dashboards: Built separate dashboards where seekers can find and apply for jobs,
+recruiters can register companies and post jobs, and admins can manage the whole system. <br />
+● Company Approval & User Control: Developed an admin panel to approve or reject recruiter companies before
+they can post jobs, with features to block problematic users to keep the platform safe. <br />
+● Job Application Limit & Premium Upgrade: Implemented a system where seekers can apply for 3 jobs for free,
+after which they need to make a payment to upgrade and unlock more applications.
               
               </p>
             </div>
@@ -112,17 +114,18 @@ Users can create accounts, log in securely, and manage their profiles while enjo
             <div className="space-y-3 pt-2">
               <h4 className="text-lg font-semibold text-[#111111]">used Technology</h4>
               <div className='flex flex-wrap font-semibold gap-3'>
-                <button className='btn btn-outline btn-neutral'>React</button>
-                <button className='btn btn-outline btn-neutral'>Next Js</button>
+               <button className='btn btn-outline btn-neutral'>Next Js</button>
                 <button className='btn btn-outline btn-neutral'>MongoDB</button>
-                <button className='btn btn-outline btn-neutral'>TailwindCSS</button>
+                <button className='btn btn-outline btn-neutral'>Express Js</button>
+                <button className='btn btn-outline btn-neutral'> JWT </button>
+                <button className='btn btn-outline btn-neutral'>Vercel</button>
               </div>
 
               <div className='flex gap-5'>
-              <Link href={'https://news-app-rust-delta.vercel.app/'}>
+              <Link href={'https://jobs-seeker-platform-client-folder.vercel.app'}>
               <button className='btn btn-primary btn-outline items-center'> <span>View Project</span>  <span><LuArrowRight size={15} /></span> </button>
               </Link>
-              <Link href={'https://github.com/Symun-Hossain-Shifat/Daily-Star-News-App'}>
+              <Link href={'https://github.com/Symun-Hossain-Shifat/Jobs-seeker-platform-client-side'}>
               <button className='btn btn-primary btn-outline items-center'> <span>View Code</span>  <span><LuArrowRight size={15} /></span> </button>
               </Link>
               </div>
