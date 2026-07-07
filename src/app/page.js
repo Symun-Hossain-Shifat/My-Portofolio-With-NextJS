@@ -6,6 +6,7 @@ import ProjectsSection from "./components/projects";
 import ServicesComponent from "./components/services";
 import ContactComponent from "./components/contact";
 import HeroSection from "./components/navbar";
+import MyProcess from "./components/Planning";
 
 
 export default function Home() {
@@ -13,12 +14,13 @@ export default function Home() {
     <div>
       <HeroSection></HeroSection>
       <Aboutpage></Aboutpage>
-      <Skillspage></Skillspage>
+      <Skillspage></Skillspage> 
+      <MyProcess></MyProcess>
       <ServicesComponent></ServicesComponent>
       <EducationExperience></EducationExperience>
       <ProjectsSection></ProjectsSection>
 
-      <ContactComponent></ContactComponent>
+      {/* <ContactComponent></ContactComponent> */}
     </div>
   );
 }
