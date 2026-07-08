@@ -20,7 +20,7 @@ export default function Home() {
       <EducationExperience></EducationExperience>
       <ProjectsSection></ProjectsSection>
 
-      {/* <ContactComponent></ContactComponent> */}
+      <ContactComponent></ContactComponent>
     </div>
   );
 }
