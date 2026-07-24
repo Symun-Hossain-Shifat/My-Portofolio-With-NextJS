@@ -83,7 +83,7 @@ function Heropage() {
             className="btn btn-sm sm:btn-md bg-amber-500 hover:bg-amber-400 text-slate-900 border-none font-semibold rounded-full px-3 sm:px-5 shadow-md shadow-amber-500/20 hover:shadow-amber-400/40 transition-all duration-300 group"
           >
             <span className="hidden xs:inline sm:inline">Hire Me</span>
-            <span className="xs:hidden sm:hidden">Hire</span>
+            <span className="xs:hidden sm:hidden">Hire Me</span>
             <GoArrowUpRight
               size={16}
               className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
