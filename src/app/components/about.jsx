@@ -17,7 +17,7 @@ export default function Aboutpage() {
   return (
     <section
       id="about"
-      className="min-h-screen border-2 bg-white text-black px-4 sm:px-6 md:px-16 py-14 md:py-20"
+      className="min-h-screen  bg-white text-black px-4 sm:px-6 md:px-16 py-14 md:py-20"
     >
       <p className="text-violet-600 font-bold text-xl sm:text-2xl text-center mb-6 tracking-widest uppercase">
         About Me

@@ -18,6 +18,7 @@ import {
   SiJavascript,
   SiFirebase,
   SiExpress,
+  SiCoronarenderer,
 } from "react-icons/si";
 
 export default function Skillspage() {
@@ -90,6 +91,11 @@ export default function Skillspage() {
       name: "Vercel",
       icon: <RiVercelLine />,
       level: "98%",
+    },
+    {
+      name: "Render",
+      icon: <SiCoronarenderer />,
+      level: "90%",
     }
   ];
 
