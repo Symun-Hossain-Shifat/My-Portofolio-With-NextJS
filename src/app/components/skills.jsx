@@ -20,23 +20,8 @@ import {
   SiExpress,
 } from "react-icons/si";
 
-export default function Skillspage () {
+export default function Skillspage() {
   const frontendSkills = [
-    {
-      name: "HTML5",
-      icon: <FaHtml5 />,
-      level: "99%",
-    },
-    {
-      name: "CSS3",
-      icon: <FaCss3Alt />,
-      level: "99%",
-    },
-    {
-      name: "JavaScript",
-      icon: <SiJavascript />,
-      level: "90%",
-    },
     {
       name: "React",
       icon: <FaReact />,
@@ -46,6 +31,23 @@ export default function Skillspage () {
       name: "Next.js",
       icon: <SiNextdotjs />,
       level: "95%",
+    },
+
+    {
+      name: "JavaScript",
+      icon: <SiJavascript />,
+      level: "90%",
+    },
+
+    {
+      name: "HTML5",
+      icon: <FaHtml5 />,
+      level: "99%",
+    },
+    {
+      name: "CSS3",
+      icon: <FaCss3Alt />,
+      level: "99%",
     },
     {
       name: "Tailwind CSS",
@@ -83,7 +85,7 @@ export default function Skillspage () {
       icon: <FaFigma />,
       level: "99%",
     },
-    
+
     {
       name: "Vercel",
       icon: <RiVercelLine />,
@@ -97,7 +99,7 @@ export default function Skillspage () {
       className="min-h-screen bg-black text-white px-6 md:px-16 py-20"
     >
       <div className="max-w-7xl mx-auto">
-        
+
         {/* HEADING */}
         <motion.div
           initial={{ opacity: 0, y: -40 }}
@@ -122,7 +124,7 @@ export default function Skillspage () {
 
         {/* SKILLS GRID */}
         <div className="grid lg:grid-cols-3 gap-10">
-          
+
           {/* FRONTEND */}
           <SkillCard title="Frontend Development" skills={frontendSkills} />
 
@@ -138,7 +140,7 @@ export default function Skillspage () {
 }
 
 /* SKILL CARD */
-function SkillCard ({ title, skills }) {
+function SkillCard({ title, skills }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 80 }}
@@ -154,11 +156,11 @@ function SkillCard ({ title, skills }) {
       <div className="space-y-8">
         {skills.map((skill, index) => (
           <div key={index}>
-            
+
             {/* TOP */}
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-3">
-                
+
                 <span className="text-3xl text-cyan-400">
                   {skill.icon}
                 </span>

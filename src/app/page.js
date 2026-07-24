@@ -14,7 +14,7 @@ export default function Home() {
     <div>
       <HeroSection></HeroSection>
       <Aboutpage></Aboutpage>
-      <Skillspage></Skillspage> 
+      <Skillspage></Skillspage>
       <MyProcess></MyProcess>
       <ServicesComponent></ServicesComponent>
       <EducationExperience></EducationExperience>
