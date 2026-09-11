@@ -4,6 +4,7 @@ import image1 from '@/asset/Recipe.png'
 import { LuArrowRight } from 'react-icons/lu';
 import image3 from '@/asset/hireloop.png'
 import image4 from '@/asset/travel.png'
+import image5 from '@/asset/Torlet.png'
 import Link from 'next/link';
 
 const ProjectsSection = () => {
@@ -220,6 +221,70 @@ const ProjectsSection = () => {
 
 
 
+
+        {/* Project 4 - Image on Left */}
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+
+          {/* Text Side */}
+          <div className="space-y-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#111111] leading-tight">
+              Torlet E-commerce Platform
+            </h2>
+            <div>
+              <h4 className="text-lg font-semibold text-[#111111]"> Project Overview </h4>
+              <p className="text-[#545454] flex flex-col leading-relaxed">Developed a full-stack e-commerce platform that allows users to browse products, manage listings, and complete purchases through a responsive and user-friendly interface with secure authentication.</p>
+            </div>
+
+            <div className="space-y-3">
+              <h4 className="text-lg font-semibold text-[#111111]"> Project Featured </h4>
+              <p className="text-[#545454] flex flex-col leading-relaxed">
+                ● User, Recruiter & Admin Dashboards: Built separate dashboards where seekers can find and apply for jobs,
+                recruiters can register companies and post jobs, and admins can manage the whole system. <br />
+                ● Company Approval & User Control: Developed an admin panel to approve or reject recruiter companies before
+                they can post jobs, with features to block problematic users to keep the platform safe. <br />
+                ● Job Application Limit & Premium Upgrade: Implemented a system where seekers can apply for 3 jobs for free,
+                after which they need to make a payment to upgrade and unlock more applications.
+
+              </p>
+            </div>
+
+            <div className="space-y-3 pt-2">
+              <h4 className="text-lg font-semibold text-[#111111]">used Technology</h4>
+              <div className='flex flex-wrap font-semibold gap-3'>
+                <button className='btn btn-outline btn-neutral'>Next Js</button>
+                <button className='btn btn-outline btn-neutral'>MongoDB</button>
+                <button className='btn btn-outline btn-neutral'>Express Js</button>
+                <button className='btn btn-outline btn-neutral'> JWT </button>
+                <button className='btn btn-outline btn-neutral'>Vercel</button>
+              </div>
+
+              <div className='flex gap-5'>
+                <Link href={'https://jobs-seeker-platform-client-folder.vercel.app'}>
+                  <button className='btn btn-primary btn-outline items-center'> <span>View Project</span>  <span><LuArrowRight size={15} /></span> </button>
+                </Link>
+                <Link href={'https://github.com/Symun-Hossain-Shifat/Jobs-seeker-platform-client-side'}>
+                  <button className='btn btn-primary btn-outline items-center'> <span>View Code</span>  <span><LuArrowRight size={15} /></span> </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Image Side */}
+          <div className="relative group overflow-hidden rounded-[2.5rem]">
+            <Image
+              src={image5} // Replace with your actual image path
+              alt="PeakStudio Architectural Excellence"
+              width={600}
+              height={600}
+              className="w-full h-auto rounded-[2.5rem] object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            {/* Stat Box Overlay */}
+
+          </div>
+
+
+
+        </div>
 
 
 
