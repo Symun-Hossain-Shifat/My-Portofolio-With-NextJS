@@ -37,7 +37,7 @@ const ProjectsSection = () => {
             </h2>
             <div>
               <h4 className="text-lg font-semibold text-[#111111]"> Project Overview </h4>
-              <p className="text-[#545454] flex flex-col leading-relaxed">RecipeHub is a modern full-stack recipe sharing platform where users can discover, create, manage, and share delicious recipes with people around the world. It provides a clean and responsive interface, secure authentication, recipe categorization, and an interactive user experience.
+              <p className="text-[#545454] flex flex-col leading-relaxed">RecipeHub is a full-stack recipe sharing platform where users can discover, create, and share recipes with a clean, responsive interface and secure authentication.
 
               </p>
             </div>
@@ -45,12 +45,9 @@ const ProjectsSection = () => {
             <div className="space-y-3">
               <h4 className="text-lg font-semibold text-[#111111]"> Project Featured </h4>
               <p className="text-[#545454] flex flex-col leading-relaxed">
-                ● User & Admin Dashboards: Developed separate dashboards for users and admins with recipe management, user
-                management, payment tracking, and full system administration. <br />
-                ● Recipe Management & Search: Implemented full CRUD functionality, category-based filtering, server-side
-                pagination, and dynamic recipe loading for a seamless browsing experience. <br />
-                ● Authentication & Premium Features: Integrated secure authentication (Email/Password & Google Sign-In),
-                protected routes, persistent sessions, and a premium upgrade system with recipe posting limits.
+                • Implemented recipe CRUD and a like system with duplicate prevention, displaying live counts on responsive cards. <br />
+                • Implemented category filtering across 5 recipe types with server-side pagination for fast, dynamic catalog loading. <br />
+                • Enabled Google/email sign-in via Better Auth, with a personal dashboard to manage recipes and profile.
 
               </p>
             </div>
@@ -102,12 +99,9 @@ const ProjectsSection = () => {
             <div className="space-y-3">
               <h4 className="text-lg font-semibold text-[#111111]"> Project Featured </h4>
               <p className="text-[#545454] flex flex-col leading-relaxed">
-                ● User, Recruiter & Admin Dashboards: Built separate dashboards where seekers can find and apply for jobs,
-                recruiters can register companies and post jobs, and admins can manage the whole system. <br />
-                ● Company Approval & User Control: Developed an admin panel to approve or reject recruiter companies before
-                they can post jobs, with features to block problematic users to keep the platform safe. <br />
-                ● Job Application Limit & Premium Upgrade: Implemented a system where seekers can apply for 3 jobs for free,
-                after which they need to make a payment to upgrade and unlock more applications.
+                • Implemented one-click resume/CV upload and cover letter submission with real-time application status tracking. <br />
+                • Designed role-based dashboards for seekers, employers, and admins to manage applications and analytics. <br />
+                • Implemented Google/email sign-in via Better Auth with JWT, HTTP-only cookies, and role-based access control. <br />
 
               </p>
             </div>
@@ -185,13 +179,9 @@ const ProjectsSection = () => {
             <div className="space-y-3">
               <h4 className="text-lg font-semibold text-[#111111]"> Project Featured </h4>
               <p className="text-[#545454] flex flex-col leading-relaxed">
-                <span>Users can browse available travel destinations and book their preferred trips through an easy-to-use booking
-                  system. Each booking is securely associated with the logged-in user's account. </span>
-                <span>Users can manage their travel plans by editing destination details or deleting previously added travel
-                  destinations, providing full control over their travel information.</span>
-                <span>Authenticated users can view all of their booked destinations in a dedicated dashboard, allowing them to
-                  track, manage, and organize their travel history in one place.</span>
-
+                •  Users can browse available destinations and book their preferred trips through a simple, secure system tied to their account. <br />
+                • Users have full control to edit or delete their added travel destinations anytime. <br />
+                • Authenticated users can view, track, and organize all their booked destinations in one dedicated dashboard. <br />
 
               </p>
             </div>
@@ -238,12 +228,9 @@ const ProjectsSection = () => {
             <div className="space-y-3">
               <h4 className="text-lg font-semibold text-[#111111]"> Project Featured </h4>
               <p className="text-[#545454] flex flex-col leading-relaxed">
-                ● User, Recruiter & Admin Dashboards: Built separate dashboards where seekers can find and apply for jobs,
-                recruiters can register companies and post jobs, and admins can manage the whole system. <br />
-                ● Company Approval & User Control: Developed an admin panel to approve or reject recruiter companies before
-                they can post jobs, with features to block problematic users to keep the platform safe. <br />
-                ● Job Application Limit & Premium Upgrade: Implemented a system where seekers can apply for 3 jobs for free,
-                after which they need to make a payment to upgrade and unlock more applications.
+                • Enabled users to browse products, view detailed product pages, and manage a wishlist and cart before checkout. <br />
+                • Built a responsive admin table enabling sellers/admins to manage products and users, reply to messages, and track activity. <br />
+                • Implemented sign-in access to a personal profile dashboard with persistent wishlist and cart state across sessions. <br />
 
               </p>
             </div>
@@ -259,10 +246,10 @@ const ProjectsSection = () => {
               </div>
 
               <div className='flex gap-5'>
-                <Link href={'https://jobs-seeker-platform-client-folder.vercel.app'}>
+                <Link href={'https://torlet-project-client-side.vercel.app/'}>
                   <button className='btn btn-primary btn-outline items-center'> <span>View Project</span>  <span><LuArrowRight size={15} /></span> </button>
                 </Link>
-                <Link href={'https://github.com/Symun-Hossain-Shifat/Jobs-seeker-platform-client-side'}>
+                <Link href={'https://github.com/Symun-Hossain-Shifat/Torlet_project_Client-REPO'}>
                   <button className='btn btn-primary btn-outline items-center'> <span>View Code</span>  <span><LuArrowRight size={15} /></span> </button>
                 </Link>
               </div>
