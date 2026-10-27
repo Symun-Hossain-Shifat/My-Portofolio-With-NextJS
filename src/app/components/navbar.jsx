@@ -66,7 +66,7 @@ export default function HeroSection() {
               </Link>
 
               <Link
-                href="https://drive.google.com/file/d/1vmX6s1ibZTCdpD-uHcukBNd0p-Z1mxEM/view"
+                href="https://drive.google.com/file/d/1GeM0UriDpkDznE7h81ySfw_XH0FUH1XT/view?usp=sharing"
                 target="_blank"
                 className="w-full sm:w-auto"
               >

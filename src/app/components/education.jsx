@@ -45,7 +45,20 @@ const EducationExperience = () => {
 
   return (
     <section id='education' className="bg-white container mx-auto py-10 px-6">
+      {/* Section Heading */}
+      <div className="max-w-7xl mx-auto text-center mb-16">
+        <span className="text-[#00a3ff] font-semibold uppercase tracking-wider text-sm mb-2 block">
+          My Background
+        </span>
+        <h2 className="text-4xl md:text-5xl font-bold text-[#1a202c]">
+          Education & Experience
+        </h2>
+        <div className="w-20 h-1 bg-[#00a3ff] mx-auto mt-4 rounded-full"></div>
+      </div>
+
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
+
+
 
         {/* Education Column */}
         <div>

@@ -246,7 +246,7 @@ const ProjectsSection = () => {
               </div>
 
               <div className='flex gap-5'>
-                <Link href={'https://torlet-project-client-side.vercel.app/'}>
+                <Link href={'https://www.torlet.com/'}>
                   <button className='btn btn-primary btn-outline items-center'> <span>View Project</span>  <span><LuArrowRight size={15} /></span> </button>
                 </Link>
                 <Link href={'https://github.com/Symun-Hossain-Shifat/Torlet_project_Client-REPO'}>
